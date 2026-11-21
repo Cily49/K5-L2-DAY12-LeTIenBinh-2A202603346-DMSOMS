@@ -1,0 +1,10 @@
+File: export_final.zip · chỉ kiểm ảnh: S01, S02
+Ảnh: 4 · đã có frame_meta: 4 · số đối tượng: child_seat=6, face=2, person=2
+Kết quả: 0 lỗi, 0 cảnh báo. Cảnh báo cần bạn tự xét, không tự động là sai.
+
+--- English translation of the cabin_check output above (original lines kept unchanged) ---
+File: export_final.zip · checked images only: S01, S02
+Images: 4 · with frame_meta: 4 · object counts: child_seat=6, face=2, person=2
+Result: 0 errors, 0 warnings. Warnings need your own judgement; they are not automatically wrong.
+
+Note: generated after the session from the final export with --only S01,S02 (see self_review.md).

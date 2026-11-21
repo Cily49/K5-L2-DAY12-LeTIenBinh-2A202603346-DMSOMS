@@ -1,0 +1,12 @@
+File: export_final.zip
+Ảnh: 22 · đã có frame_meta: 22 · số đối tượng: child_seat=14, face=16, face13=6, hand=10, infant_seat=4, object=4, person=16
+  [WARN] D02.png: left_eye_outer nằm bên trái ảnh so với right_eye_outer: kiểm lại quy ước trái/phải theo người (đúng nếu mặt quay hẳn sang bên)
+Kết quả: 0 lỗi, 1 cảnh báo. Cảnh báo cần bạn tự xét, không tự động là sai.
+
+--- English translation of the cabin_check output above (original lines kept unchanged) ---
+File: export_final.zip
+Images: 22 · with frame_meta: 22 · object counts: child_seat=14, face=16, face13=6, hand=10, infant_seat=4, object=4, person=16
+  [WARN] D02.png: left_eye_outer is on the left of the image relative to right_eye_outer: re-check the left/right convention (by the person; correct if the face is turned fully sideways)
+Result: 0 errors, 1 warning. Warnings need your own judgement; they are not automatically wrong.
+
+Explanation of WARN D02: the D## frames are rotated about 90°, so the two eyes lie along the y axis instead of x. Every left_eye_* point has a larger y than the matching right_eye_* point, so left/right follows the driver correctly (CHECKPOINTS, Checkpoint B; GUIDE §4.4 rule 2).
