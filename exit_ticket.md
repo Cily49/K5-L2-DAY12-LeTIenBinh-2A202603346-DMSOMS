@@ -13,11 +13,11 @@ Individual, no slides, about 10 minutes. Write the answer right under each quest
 - C. To get nicer color images for video calls
 - D. To let the camera see through every kind of sunglasses
 
-Answer: …
+Answer: **B**. The 940 nm LED is invisible to the eye, so the face is lit evenly day and night without dazzling the driver. It does not measure temperature (A), gives no color (C), and does not see through every sunglasses lens (D).
 
 **Question 2 · Number, 2 decimal places.** A DMS camera runs at 30 frames per second. The model estimates the driver's head yaw above 30° continuously from frame 240 to frame 314, **including both frame 240 and frame 314**. For how many seconds was the driver not looking at the road?
 
-Answer: … s
+Answer: **2.50 s**. Frames 240 to 314 inclusive = 314 − 240 + 1 = 75 frames; 75 / 30 fps = 2.50 s.
 
 **Question 3 · Choose all correct answers.** Which statements are true about cabin data compared with outside-camera data?
 
@@ -27,4 +27,4 @@ Answer: … s
 - D. Objects in a cabin are usually far away and small, with many objects per image.
 - E. The cabin scene is fixed, so it needs no separate guideline or QC.
 
-Answer: …
+Answer: **A, B, C**. D is false: cabin objects are close to the camera and large, with few per image. E is false: cabins need their own guideline and QC (seat naming by car, left/right by person, IR rules).

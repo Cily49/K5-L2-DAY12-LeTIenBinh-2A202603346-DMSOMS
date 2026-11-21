@@ -27,4 +27,8 @@ How I will avoid it next time: fill `frame_meta` first with a short per-dataset 
 
 ## 3. Note on disagreement_log
 
-One row where my peer was right and I was wrong, and what I learned from it: <fill in after the peer diff>
+Peer: Chu Tuan Ngoc (G04), 63 rows in `disagreement_log.csv`.
+
+One row where my peer was right and I was wrong: none. After re-checking each row in CVAT I kept my label on all 63 rows. The rows I looked at most carefully were `infant_seat.facing` on S03/S05 (rear vs front) and `gaze_zone` on D02–D04 (road vs lap), because a different reading of the image was plausible there.
+
+What I learned from the log: two people agreeing only shows consistency, not correctness (RULES §1), so I wrote the guideline section next to every verdict. That way the coach can judge each row against the guideline instead of against either of us.
